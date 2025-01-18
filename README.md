@@ -4,6 +4,9 @@ Simple implementation of ImGui menu display in C++
 
 ## Example
 ```cpp
+std::shared_ptr<SImGui::Element> elements =
+    std::make_shared<SImGui::Element>();
+
 int score = 0;
 bool auto_update = false;
 
